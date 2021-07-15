@@ -1,10 +1,15 @@
+/* css child property
+https://www.codegrepper.com/code-examples/css/css+first+and+second+child
+
+*/
+
 /* 
 
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
 
  */
 
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
 
 *, *::after, *::before {
   margin: 0;
@@ -12,11 +17,11 @@
   box-sizing: inherit;
 }
 
- html{
-   font-size: 62.5%;
-   /* always use rem 10px=1rem
+html {
+  font-size: 62.5%;
+  /* always use rem 10px=1rem
    rem inherit value from doc */
- }
+}
 body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden !important;
@@ -85,7 +90,6 @@ button:active {
   transform: translate(0, 0.2em);
   background-color: rgba(166, 245, 170, 0.452);
 }
-
 
 @media (min-width: 576px) {
   .largeHide {
