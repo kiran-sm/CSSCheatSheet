@@ -8,6 +8,7 @@ https://www.codegrepper.com/code-examples/css/css+first+and+second+child
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
 
  */
+background: linear-gradient(to right, green 0%, green 33%, red 33%, red 66%,blue 66%, blue 100%);
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
 
