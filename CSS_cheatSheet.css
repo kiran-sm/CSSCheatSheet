@@ -31,7 +31,7 @@ body {
 .some-element {
   /* 10 * 1.2 = 12px */
   font-size: 1.2rem;
-}
+} 
 
 html {
   font-size: 62.5%;
