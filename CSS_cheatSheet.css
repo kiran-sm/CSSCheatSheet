@@ -17,21 +17,7 @@ background: linear-gradient(to right, green 0%, green 33%, red 33%, red 66%,blue
   box-sizing: inherit;
 }
 
-html {
-  /* 62.5% of 16px base font size is 10px */
-  font-size: 62.5%;
-}
 
-/* Preserve 16px body font-size, set body font-size to 1.6rem */
-body {
-  /* 16px */
-  font-size: 1.6rem;
-}
-
-.some-element {
-  /* 10 * 1.2 = 12px */
-  font-size: 1.2rem;
-} 
 
 html {
   font-size: 62.5%;
