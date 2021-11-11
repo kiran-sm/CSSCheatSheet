@@ -8,21 +8,38 @@ https://www.codegrepper.com/code-examples/css/css+first+and+second+child
 <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' >
 
  */
+background: linear-gradient(
+  to right,
+  green 0%,
+  green 33%,
+  red 33%,
+  red 66%,
+  blue 66%,
+  blue 100%
+);
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"/>
-background: linear-gradient(to right, green 0%, green 33%, red 33%, red 66%,blue 66%, blue 100%);
+
 *, *::after, *::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit;
 }
 
-
-
 html {
+  /* 62.5% of 16px base font size is 10px */
   font-size: 62.5%;
-  /* always use rem 10px=1rem
-   rem inherit value from doc */
+}
+
+/* Preserve 16px body font-size, set body font-size to 1.6rem */
+body {
+  /* 16px */
+  font-size: 1.6rem;
+}
+
+.some-element {
+  /* 10 * 1.2 = 12px */
+  font-size: 1.2rem;
 }
 body {
   text-rendering: optimizeLegibility;
@@ -100,7 +117,7 @@ button:active {
 }
 
 @media (max-width: 576px) {
-  .small-hide {
+  .hide {
     display: none;
   }
 }
