@@ -41,13 +41,14 @@ body {
   /* 10 * 1.2 = 12px */
   font-size: 1.2rem;
 }
+
 body {
   text-rendering: optimizeLegibility;
   overflow-x: hidden !important;
   box-sizing: border-box;
 }
 
-.text-box {
+<img src="some_image" loading="lazy" width="200" height="200" / > .text-box {
   position: absolute;
   top: 50%;
   left: 50%;
