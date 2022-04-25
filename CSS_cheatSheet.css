@@ -122,3 +122,29 @@ button:active {
     display: none;
   }
 }
+
+/* button hover effect */
+
+#selectOptions>div>div.card1:before {
+  position: absolute;
+  content: "";
+ 
+  width: 14rem;
+  height: 14rem;
+  transform-origin: 50%;
+  border-radius: 6px;
+}
+#selectOptions>div>div.card1:hover:before {
+  border: 5px solid #ffffff70;
+  cursor: pointer;
+  transform: scale(1.1);
+  filter: blur(2px);
+  transition: 1000ms transform ease, 2100ms blur ease, 900ms border-color cubic-bezier(0, 0, 0.99, 1.29);
+  transition-property: transform, blur,opacity;
+  transition-duration: 1000ms, 2100ms, 900ms;
+  transition-timing-function: ease, ease, ease;
+  transition-delay: 0s, 0s, 0s;
+  opacity: 0;
+}
+
+/* button hover effect */
