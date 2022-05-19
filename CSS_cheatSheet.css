@@ -148,3 +148,28 @@ button:active {
 }
 
 /* button hover effect */
+
+
+/* css sprite */
+
+/* name file name as sprite.svg and call it in css */
+
+/* inside svg sprites */
+/* <svg xmlns="http://www.w3.org/2000/svg" style="display:none;">
+	<defs>
+
+        <symbol id="icon-Alignment" viewBox="0 0 32 32">
+           
+            <path  d="M0 0h32v32h-32v-32z"></path>
+        </symbol>
+
+	</defs>
+</svg> */
+
+
+/* while calling */
+/* <svg class="icon icon-D-editor">
+			<use xlink:href="../../../app-assets/images/sprites.svg#icon-D-editor">
+		</use>
+  </svg> */
+/* css sprite */
