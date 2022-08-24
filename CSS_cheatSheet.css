@@ -177,3 +177,16 @@ button:active {
 		</use>
   </svg> */
 /* css sprite */
+
+
+
+/* css scroll edge starts here*/
+.my-project-main-box.right-column-scroll{
+  overflow-y: scroll !important;
+      height: 65vh !important;
+      scroll-snap-type: y mandatory;
+  }
+  .my-project-main-box.right-column-scroll>div{
+  scroll-snap-align: end;
+  }
+/* css scroll edge ends here*/
