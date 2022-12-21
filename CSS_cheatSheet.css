@@ -190,3 +190,7 @@ button:active {
   scroll-snap-align: end;
   }
 /* css scroll edge ends here*/ 
+
+
+/* double click disable */
+pointer-events:none;
