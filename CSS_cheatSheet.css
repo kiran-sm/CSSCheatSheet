@@ -194,3 +194,13 @@ button:active {
 
 /* double click disable */
 pointer-events:none;
+
+//* js copy paste enabled in disbled function / 
+var allowCopyAndPaste = function (e) {
+  e.stopImmediatePropagation();
+  return true;
+};
+document.addEventListener("copy", allowCopyAndPaste, true);
+document.addEventListener("paste", allowCopyAndPaste, true);
+document.addEventListener("onpaste", allowCopyAndPaste, true);
+
