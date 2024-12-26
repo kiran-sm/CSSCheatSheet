@@ -178,7 +178,20 @@ button:active {
   </svg> */
 /* css sprite */
 
-
+Scroll stop on edges
+ /* Base scrollbar gutter */
+  .scrollbar-gutter-stable {
+    scrollbar-gutter: stable;
+  }
+  
+  /* Both sides */
+  .scrollbar-gutter-stable-both {
+    scrollbar-gutter: stable both-edges;
+  }
+  
+  /* Auto mode */
+  .scrollbar-gutter-auto {
+    scrollbar-gutter: auto;
 
 /* css scroll edge starts here*/
 .my-project-main-box.right-column-scroll{
