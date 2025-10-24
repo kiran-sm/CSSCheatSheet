@@ -217,3 +217,11 @@ document.addEventListener("copy", allowCopyAndPaste, true);
 document.addEventListener("paste", allowCopyAndPaste, true);
 document.addEventListener("onpaste", allowCopyAndPaste, true);
 
+
+	  If you only want numeric digits:
+
+<input 
+ type="text" 
+ inputmode="numeric"
+ pattern="[0-9]*"
+/>
