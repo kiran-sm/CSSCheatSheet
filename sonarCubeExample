@@ -8,3 +8,8 @@ sonar.javascript.lcov.reportPaths=coverage/lcov.info
 sonar.login=sqp_45b15cc4decc991bd8b05bc387e3c288f0a0c703
 sonar.projectBaseDir=D:\\RIOS-CDM-new-updated\\rios-ui-application
 sonar.cpd.exclusions= src/**/Product.jsx,src/**/Fuel.jsx,src/**/Register.jsx,src/**/FlaringLoss.jsx
+
+
+//execution
+
+"D:\sonar-scanner-7.1.0.4889-windows-x64\bin\sonar-scanner.bat" -D"project.settings=D:\RIOS-CDM-new-updated\rios-ui-application\sonar-project.properties" -D"sonar.host.url=http://74.176.188.205:9000" -D"sonar.login=sqp_45b15cc4decc991bd8b05bc387e3c288f0a0c703"
