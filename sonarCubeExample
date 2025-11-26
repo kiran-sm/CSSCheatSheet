@@ -1,0 +1,10 @@
+sonar.projectKey=rios-ui-app
+sonar.projectName=rios-ui-app
+sonar.sources=src
+sonar.exclusions=**/*.test.jsx, **/node_modules/**, **/vite.config.js, src/**/AddSearchComponent.jsx, src/**/axiosConfig.js, src/**/constants.js, src/**/main.jsx, src/**/setup.jsx, src/__mocks__/**,src/**/ConstraintFile.jsx,src/**/EditStreamModal.jsx, src/**/Home.jsx,src/**/DataUpload.jsx,src/**/DefaultInput.jsx,src/**/ReviseFile.jsx,src/**/VarianceAnalysis.jsx,src/**/BlendingComponent.jsx
+# sonar.tests=src/components/__tests__
+sonar.test.inclusions=**/*.test.jsx
+sonar.javascript.lcov.reportPaths=coverage/lcov.info
+sonar.login=sqp_45b15cc4decc991bd8b05bc387e3c288f0a0c703
+sonar.projectBaseDir=D:\\RIOS-CDM-new-updated\\rios-ui-application
+sonar.cpd.exclusions= src/**/Product.jsx,src/**/Fuel.jsx,src/**/Register.jsx,src/**/FlaringLoss.jsx
