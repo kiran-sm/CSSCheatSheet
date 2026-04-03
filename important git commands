@@ -1,0 +1,2 @@
+to generate file structure
+tree -I 'node_modules|.git' > structure.txt
